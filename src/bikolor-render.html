@@ -1,0 +1,31 @@
+<link rel="import" href="../../../bower_components/polymer/polymer.html">
+<link rel="import" href="../../../bower_components/iron-flex-layout/iron-flex-layout-classes.html">
+<link rel="stylesheet" type="text/css" href="bikolor-render.css">
+
+<dom-module id="bikolor-render">
+  <template>
+    <style include="iron-flex iron-flex-alignment">
+    </style>
+    <div class="layout horizontal">
+      <span id="margin-left"></span>
+      <div class="layout vertical">
+        <div id="title">Bikolor Project</div>
+        <div class="layout horizontal">
+          <div id="subtitle">A visualization project exploring colorful portrayal of bike tracks.</div>
+          <span class="flex"></span>
+          <div id="links"><a href="https://medium.com/@arun_kishore/bikolor-project-biking-through-colors-9c890a87c8c0" target="_blank">Read Story</a> &nbsp;&nbsp;|&nbsp;&nbsp; 
+          <a href="http://www.zazzle.com/collections/bikolor_series-119703481349540512" target="_blank">View Designs</a></div>
+        </div>
+        <div>
+          <canvas id="bkCanvas">
+            Your browser does not support the HTML5 canvas tag.
+          </canvas>
+        </div>
+        <div id="footer">© 2017 <a href="http://www.arunkishore.com">Arun Kishore</a>. All rights reserved.</div>
+      </div>
+      <span id="margin-right"></span>
+    </div>
+  </template>
+  <script src="bikolor-render.js"></script>
+</dom-module>
+

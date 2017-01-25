@@ -1,0 +1,38 @@
+
+canvas#bkCanvas {
+
+    background: #000000;
+    border-style: groove;
+	border-width: thin;
+	border-color: #bac;
+}
+
+span.margin {
+
+	width: 5vw;
+}
+
+div#title {
+
+	font-size: 2vw;
+	margin: 1vw;
+}
+
+div#subtitle {
+
+	font-size: 1vw;
+	font-style: italic;
+	margin: 0.5vw;
+}
+
+div#links {
+
+	font-size: 1vw;
+	margin: 0.5vw;
+}
+
+div#footer {
+
+	font-size: 1vw;
+	margin: 0.5vw;
+}

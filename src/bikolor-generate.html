@@ -1,0 +1,29 @@
+<link rel="import" href="../../../bower_components/polymer/polymer.html">
+<link rel="import" href="../../../bower_components/iron-flex-layout/iron-flex-layout-classes.html">
+<link rel="import" href="../../../bower_components/paper-button/paper-button.html">
+<link rel="stylesheet" type="text/css" href="bikolor-generate.css">
+
+<dom-module id="bikolor-generate">
+  <template>
+    <style include="iron-flex iron-flex-alignment">
+
+      paper-button {
+
+        background-color: blue;
+      }
+    </style>
+    <div class="layout vertical">
+      <div>
+        <canvas id="bkCanvas">
+          Your browser does not support the HTML5 canvas tag.
+        </canvas>
+      </div>
+      <div>
+        <a href="{{imageUrl}}" target="_blank">Open Image</a>
+        <paper-button raised on-tap="printConfig">Print Config</paper-button>
+      </div>
+    </div>
+  </template>
+  <script src="bikolor-generate.js"></script>
+</dom-module>
+
